@@ -1,9 +1,6 @@
 .todoform {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 320px;
-  margin: 0 auto;
+  width: 61%;
+  margin-left: 15%;
   background-color: white;
   padding: 20px;
   margin-top: 110px;

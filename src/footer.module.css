@@ -1,21 +1,16 @@
 .footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    height: 40px;
+    padding-top:20px;
     position:fixed;
     bottom:0;
-    font-size:1.4em;
+    font-size:19px;
     font-weight: bold;
     text-align: center;
     width:100%;
     background-color: gray;
     
 }
-.item{
-    height: 40px;
-    padding-top:20px;
-    width: 50%;
-}
+
 .divide{
     color: white;
    
