@@ -1,0 +1,18 @@
+.footer{
+    position:fixed;
+    bottom:0;
+    font-size:1.4em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    background-color: gray;
+    padding: 10px;
+}
+.item{
+    margin: 30px;
+    width: 50%;
+}
+.divide{
+    color: white;
+   
+}
