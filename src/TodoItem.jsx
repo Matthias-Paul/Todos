@@ -14,15 +14,16 @@ export default function TodoItem({ item, todos, setTodos }) {
       <div className={styles.item}>
         <div className={styles.itemName}>
          <span className={className} onClick={()=> handleClick(item.name)}>{item.name}</span> 
-          <span>
+       
+        </div>
+        <div>
             <button
               onClick={() => handleDelete(item)}
               className={styles.deleteButton}
             >
               X
             </button>
-          </span>
-        </div>
+          </div>
         <hr className={styles.line}></hr>
       </div>
     </>
