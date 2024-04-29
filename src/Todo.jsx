@@ -15,7 +15,7 @@ if(storedTodos){
   },[])
 
   useEffect (()=> {
-     localStorage.getItem("todos", JSON.stringify(todos));
+     localStorage.setItem("todos", JSON.stringify(todos));
 
       },[todos])
 
